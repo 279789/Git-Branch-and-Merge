@@ -65,9 +65,9 @@ Delete the indicators and the text that shouldn't be in the merged version. Save
 
 
 ## 3) Questions
-1. Find another command that creates a new branch. Compare it with the proposed checkout command.
-2. How can you compare the changes of two branches before merging?
-3. If the merge does not work, how can you reset your work?
+1. Find another command that creates a new branch. Compare it with the proposed checkout command. git branch does literelly the same thing
+2. How can you compare the changes of two branches before merging? git diff !!!
+3. If the merge does not work, how can you reset your work? By opening vim and changing the "fail" git merge --abort
 
 ## 4) Advice
 Merge conflicts will be hard no matter how experienced you are. It might even be the case that you need to add code in order to make the merge work. If you are comfortable with the syntax Git uses to mark conflicting changes, this taks becomes a little easier. Also, your work is never lost! Whatever has been committet is kept by Git for at least 2 weeks even if the commit is not part of a branch anymore.
